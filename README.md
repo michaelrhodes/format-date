@@ -29,6 +29,7 @@ $ npm install format-date
 * day-name
 * month
 * month-name
+* month-abbr-name
 * year
 * hours
 * minutes

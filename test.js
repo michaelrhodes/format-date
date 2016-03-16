@@ -16,3 +16,8 @@ test('hours, minutes and seconds', function (t) {
   t.plan(1);
   t.equal(format('{hours}:{minutes}:{seconds}', date), '21:07:12');
 });
+
+test('month-abbr-name day and year', function (t) {
+  t.plan(1);
+  t.equal(format('{month-abbr-name} {day}, {year}', date), 'Sep 21, 2014');
+});

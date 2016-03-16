@@ -17,6 +17,7 @@ function formatDate (template, date) {
     seconds: leftpad(date.getSeconds(), 2, '0'),
     'day-name': days[date.getDay()],
     'month-name': months[date.getMonth()],
+    'month-abbr-name': months.abbr[date.getMonth()],
 
     // utc
     'utc-day': leftpad(date.getUTCDate(), 2, '0'),
@@ -26,6 +27,7 @@ function formatDate (template, date) {
     'utc-minutes': leftpad(date.getUTCMinutes(), 2, '0'),
     'utc-seconds': leftpad(date.getUTCSeconds(), 2, '0'),
     'utc-day-name': days[date.getUTCDay()],
-    'utc-month-name': months[date.getUTCMonth()]
+    'utc-month-name': months[date.getUTCMonth()],
+    'utc-month-abbr-name': months.abbr[date.getUTCMonth()]
   });
 }

@@ -23,7 +23,7 @@
     "format-text": "0.0.3",
     "left-pad": "0.0.3",
     "days": "^0.1.0",
-    "months": "^0.1.0"
+    "months": "^1.0.1"
   },
   "devDependencies": {
     "prova": "^1.14.2"
